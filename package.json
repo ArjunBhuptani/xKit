@@ -1,0 +1,27 @@
+{
+  "name": "xkit",
+  "version": "1.0.0",
+  "description": "A simple but powerful toolkit for building crosschain dApps.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "forge test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArjunBhuptani/xKit.git"
+  },
+  "author": "Arjun Bhuptani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArjunBhuptani/xKit/issues"
+  },
+  "homepage": "https://github.com/ArjunBhuptani/xKit#readme",
+  "dependencies": {
+    "@connext/nxtp-contracts": "^0.2.1-rc.15",
+    "@openzeppelin/contracts": "^4.8.1"
+  }
+}
